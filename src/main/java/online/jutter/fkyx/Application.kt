@@ -18,6 +18,13 @@ open class Application: SpringBootServletInitializer() {
             }
         }
     }
+
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            runApplication<Application>(*args)
+        }
+    }
 }
 
 fun main(args: Array<String>) {

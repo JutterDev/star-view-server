@@ -8,11 +8,11 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>online.jutter</groupId>
-  <artifactId>fkyx</artifactId>
+  <artifactId>star-view</artifactId>
   <version>0.0.1</version>
-  <name>fkxy</name>
-  <packaging>war</packaging>
-  <description>fkxy</description>
+  <name>star-view</name>
+  <packaging>jar</packaging>
+  <description>star-view</description>
   <properties>
     <java.version>11</java.version>
     <kotlin.version>1.6.0</kotlin.version>
