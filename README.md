@@ -21,7 +21,7 @@
 
 Запуск контейнера:
 
-     docker run -d -it -p 8080:8080 -e SERVER_KEY="12345678" -e POINT_NAME="station-north-02" -v --restart=always --name server-view ghcr.io/jutterdev/star-view-server:1.0.0
+     docker run -d -it -p 8080:8080 -e SERVER_KEY="12345678" -e POINT_NAME="station-north-02" -v --restart=always --name star-view ghcr.io/jutterdev/star-view-server:1.0.0
 
 Выгрузка контейнера в пакеты гитхаба:
 
